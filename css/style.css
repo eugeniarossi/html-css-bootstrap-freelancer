@@ -67,3 +67,14 @@ MAIN
 .contact-me .name {
     border-bottom: 1px solid #cccccc;
 }
+
+/*********
+FOOTER
+*********/
+footer .info {
+    background-color: #3a546d;
+}
+
+footer .copyright {
+    background-color: var(--dark-grey);
+}
