@@ -3,13 +3,13 @@ VARIABLES
 *********/
 :root {
     --dark-grey: #2c3e50;
+    --green: #1abc9c;
 }
 
 /*********
 DEBUG
 *********/
 .debug .portfolio .row .row > * {
-    
     border: .0625rem dotted green;
 }
 
@@ -43,11 +43,27 @@ MAIN
 /*--- jumbotron ---*/
 
 .jumbotron {
-    background-color: #1abc9c;
+    background-color: var(--green);
 }
 
 /*--- portfolio ---*/
 
 .portfolio {
     color: var(--dark-grey);
+}
+
+/*--- about ---*/
+
+.about {
+    background-color: var(--green);
+}
+
+/*--- contact me ---*/
+
+.contact-me {
+    color: var(--dark-grey);
+}
+
+.contact-me .name {
+    border-bottom: 1px solid #cccccc;
 }
