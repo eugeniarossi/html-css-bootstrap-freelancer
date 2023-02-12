@@ -1,20 +1,53 @@
-body {
-    color: white;
+/*********
+VARIABLES
+*********/
+:root {
+    --dark-grey: #2c3e50;
 }
 
-/*
-header
-*/
+/*********
+DEBUG
+*********/
+.debug .portfolio .row .row > * {
+    
+    border: .0625rem dotted green;
+}
 
+/*********
+COMMON
+*********/
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*********
+HEADER
+*********/
 header {
-    background-color: #2c3e50;
+    background-color: var(--dark-grey);
     height: 5.625rem;
 }
 
-header .container {
-    background-color: green;
+header .row > * {  
+    line-height: 5.625rem;
 }
 
-header .row > * {  /*------------------------*/
-    line-height: 5.625rem;
+/*********
+MAIN
+*********/
+
+/*--- jumbotron ---*/
+
+.jumbotron {
+    background-color: #1abc9c;
+}
+
+/*--- portfolio ---*/
+
+.portfolio {
+    color: var(--dark-grey);
 }
