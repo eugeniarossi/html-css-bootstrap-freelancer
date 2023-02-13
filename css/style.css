@@ -1,10 +1,6 @@
-/*********
-VARIABLES
-*********/
-:root {
-    --dark-grey: #2c3e50;
-    --green: #1abc9c;
-}
+@import url('variables.css');
+@import url('common.css');
+@import url('utilities.css');
 
 /*********
 DEBUG
@@ -13,27 +9,16 @@ DEBUG
     border: .0625rem dotted green;
 }
 
-/*********
-COMMON
-*********/
-a {
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
+.degub header {
+    height: 5.625rem;
 }
 
 /*********
 HEADER
 *********/
 header {
-    background-color: var(--dark-grey);
-    height: 5.625rem;
-}
-
-header .row > * {  
-    line-height: 5.625rem;
+    background-color: var(--ms-primary-color);
+    
 }
 
 /*********
@@ -42,8 +27,8 @@ MAIN
 
 /*--- jumbotron ---*/
 
-.jumbotron {
-    background-color: var(--green);
+#jumbotron {
+    background-color: var(--ms-secondary-color);
 }
 
 /*--- portfolio ---*/
