@@ -1,0 +1,24 @@
+.star_icon {
+    font-size: 1.875rem;
+    margin: 1.25rem 0;
+}
+
+.star_icon::before {
+    content: '';
+    display: inline-block;
+    width: 4.6875rem;
+    height: .25rem;
+    border-radius: .125rem;
+    vertical-align: middle;
+    margin: 0 .5rem;
+}
+
+.star_icon::after {
+    content: '';
+    display: inline-block;
+    width: 4.6875rem;
+    height: .25rem;
+    border-radius: .125rem;
+    vertical-align: middle;
+    margin: 0 .5rem;
+}

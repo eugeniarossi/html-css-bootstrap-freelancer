@@ -2,3 +2,21 @@ a {
     text-decoration: none;
 }
 
+#jumbotron .star_icon::before,
+#jumbotron .star_icon::after,
+#about .star_icon::before,
+#about .star_icon::after {
+    background-color: white;
+}
+
+#portfolio .star_icon,
+#contact-me .star_icon {
+    color: var(--ms-primary-color);
+}
+
+#portfolio .star_icon::before,
+#portfolio .star_icon::after,
+#contact-me .star_icon::before,
+#contact-me .star_icon::after {
+    background-color: var(--ms-primary-color);
+}
