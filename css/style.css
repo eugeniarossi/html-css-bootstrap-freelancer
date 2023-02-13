@@ -33,8 +33,18 @@ MAIN
 
 /*--- portfolio ---*/
 
-.portfolio {
+#portfolio {
     color: var(--dark-grey);
+}
+
+.portfolio_card {
+    border-radius: 1.875rem;
+    overflow: hidden;
+}
+
+.portfolio_card > img {
+    width: 100%;
+    height: auto;
 }
 
 /*--- about ---*/
