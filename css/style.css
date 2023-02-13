@@ -9,16 +9,17 @@ DEBUG
     border: .0625rem dotted green;
 }
 
-.degub header {
-    height: 5.625rem;
-}
-
 /*********
 HEADER
 *********/
 header {
     background-color: var(--ms-primary-color);
-    
+}
+
+header a,
+header .nav_links ul li a {
+    color: #FFF;
+    font-weight: bold;
 }
 
 /*********
