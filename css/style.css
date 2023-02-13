@@ -55,21 +55,17 @@ MAIN
 
 /*--- contact me ---*/
 
-.contact-me {
+#contact-me {
     color: var(--dark-grey);
-}
-
-.contact-me .name {
-    border-bottom: 1px solid #cccccc;
 }
 
 /*********
 FOOTER
 *********/
-footer .info {
-    background-color: #3a546d;
+footer #info {
+    background-color: var(--ms-primary-color-light);
 }
 
-footer .copyright {
-    background-color: var(--dark-grey);
+footer #copyright {
+    background-color: var(--ms-primary-color);
 }
