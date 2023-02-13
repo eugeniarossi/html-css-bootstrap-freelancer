@@ -49,8 +49,8 @@ MAIN
 
 /*--- about ---*/
 
-.about {
-    background-color: var(--green);
+#about {
+    background-color: var(--ms-secondary-color);
 }
 
 /*--- contact me ---*/
